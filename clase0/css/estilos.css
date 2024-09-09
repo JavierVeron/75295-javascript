@@ -1,0 +1,45 @@
+body {
+    color: grey;
+    background-color: black;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2, h4 {
+    color: red;
+    background-color: grey;
+}
+
+p {
+    color: red;
+}
+
+.colorVerde {
+    color:green
+}
+
+#colorRosa {
+    color:pink;
+}
+
+/* Las clases se definen con un punto (.) como prefijo */
+.parrafo {
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+
+/* Los identificadores se definen con un numeral (#) como prefijo */
+#noticia {
+    font-size: 16px;
+    color: green;
+    padding: 20px;
+}
+
+.noticia {
+    font-size: 20px;
+    color: pink;
+    padding: 20px;
+}
