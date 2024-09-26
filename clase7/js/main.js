@@ -205,7 +205,3 @@ console.log(cursos); */
 })
 
 console.log(cursos); */
-
-
-
-
