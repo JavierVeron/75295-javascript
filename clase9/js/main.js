@@ -104,7 +104,7 @@ document.getElementById("contenido").innerHTML = texto2 */
 
 
 // Recorriendo un array de productos
-const productos = [
+/* const productos = [
     {id:1, nombre:"Doble Cuarto de Libra con Queso", imagen:"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXt7Sq2/200/200/original?country=ar", precio:5000},
     {id:2, nombre:"Big Mac", imagen:"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3vl0y/200/200/original?country=ar", precio:6000},
     {id:3, nombre:"McNifica", imagen:"https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXXaUUP/200/200/original?country=ar", precio:7000},
@@ -126,7 +126,25 @@ for (const elemento of productos) {
 }
 
 let contenido = document.getElementById("contenido");
-contenido.innerHTML = salida;
+contenido.innerHTML = salida; */
+
+
+// QuerySelector => permite seleccionar un solo elemento (sería el equivalente a getElementById)
+// QuerySelectorAll => permite seleccionar uno o más elementos (sería el equivalente a getElementsByClassName o getElementsByTagName)
+/* let contenedor = document.querySelector("#contenedor");
+let parrafo = document.querySelector("#contenedor p");
+console.log(contenedor);
+console.log(parrafo);
+parrafo.innerHTML = "Curso de <b>JS</b>"; */
+
+
+//let contenedores2 = document.getElementsByTagName("div");
+//console.log(contenedores2);
+let contenedores3 = document.querySelectorAll(".bg-secondary.p-5 div");
+let contenedores4 = document.querySelectorAll("#contenedor p");
+//console.log(contenedores3);
+console.log(contenedores4);
+
 
 
 
