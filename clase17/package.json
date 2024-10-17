@@ -1,0 +1,14 @@
+{
+  "name": "proyectoprueba",
+  "version": "1.0.0",
+  "description": "Esto es una Proyecto de Prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "luxon": "^3.5.0"
+  }
+}
